@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-button-toggle-appearance-standard .mat-button-toggle-label-content{
+    padding: 0 2px !important;
+    line-height: 2 !important;
+}
+
+.mat-mdc-form-field-subscript-wrapper, .mat-mdc-form-field-bottom-align::before{
+    width: 0px !important
+}
+
+.mdc-text-field--outlined .mat-mdc-form-field-infix, .mdc-text-field--no-label .mat-mdc-form-field-infix{
+    padding-top: 1px !important;
+    padding-bottom: 0px !important;
+}
+
+.mat-mdc-form-field-icon-prefix, .mat-mdc-form-field-icon-suffix{
+    align-self: start !important;
+    padding-top: 1px !important;
+}
+
+.mat-mdc-form-field-icon-prefix>.mat-icon, .mat-mdc-form-field-icon-suffix>.mat-icon{
+    padding: 0 1px !important;
+}
+
+
+.mat-button-toggle-group-appearance-standard .mat-button-toggle-appearance-standard+.mat-button-toggle-appearance-standard{
+    border-left-color: #038d76 !important;
+}
+
+
+.scroller {
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #d0d0d0;
+    border: 2px solid transparent;
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #616060;;
+    border: 2px solid transparent;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #616060;
+  }

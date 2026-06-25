@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="50%" stop-color="#2d1b4e"/>
+      <stop offset="100%" stop-color="#110720"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="100" cy="500" r="150" fill="#7c3aed" opacity="0.1"/>
+  <circle cx="700" cy="100" r="130" fill="#a855f7" opacity="0.12"/>
+  <text x="60" y="72" fill="url(#accent)" font-family="system-ui,sans-serif" font-size="40" font-weight="800">Festo</text>
+  <text x="60" y="108" fill="#c4b5fd" font-family="system-ui,sans-serif" font-size="16" font-weight="500">Campus Resource Platform</text>
+  <rect x="50" y="140" width="700" height="420" rx="24" fill="url(#card)" stroke="#a855f7" stroke-opacity="0.35" stroke-width="1.5"/>
+  <rect x="80" y="175" width="160" height="360" rx="14" fill="#ffffff08" stroke="#7c3aed" stroke-opacity="0.3"/>
+  <rect x="100" y="200" width="120" height="32" rx="8" fill="url(#accent)" fill-opacity="0.7"/>
+  <rect x="100" y="248" width="120" height="24" rx="6" fill="#ffffff10"/>
+  <rect x="100" y="284" width="120" height="24" rx="6" fill="#ffffff10"/>
+  <rect x="100" y="320" width="120" height="24" rx="6" fill="#ffffff10"/>
+  <rect x="100" y="356" width="120" height="24" rx="6" fill="#ffffff10"/>
+  <rect x="260" y="175" width="420" height="160" rx="14" fill="#ffffff10" stroke="#a855f7" stroke-opacity="0.25"/>
+  <text x="280" y="210" fill="#ede9fe" font-family="system-ui,sans-serif" font-size="14" font-weight="700">Student Dashboard</text>
+  <rect x="280" y="230" width="115" height="80" rx="10" fill="#7c3aed" fill-opacity="0.25"/>
+  <rect x="415" y="230" width="115" height="80" rx="10" fill="#a855f7" fill-opacity="0.2"/>
+  <rect x="550" y="230" width="115" height="80" rx="10" fill="#6d28d9" fill-opacity="0.25"/>
+  <rect x="260" y="355" width="200" height="180" rx="14" fill="#ffffff08" stroke="#7c3aed" stroke-opacity="0.25"/>
+  <text x="280" y="390" fill="#ede9fe" font-family="system-ui,sans-serif" font-size="13" font-weight="700">AI Mentor</text>
+  <circle cx="360" cy="445" r="35" fill="url(#accent)" fill-opacity="0.35"/>
+  <rect x="480" y="355" width="200" height="180" rx="14" fill="#ffffff08" stroke="#7c3aed" stroke-opacity="0.25"/>
+  <text x="500" y="390" fill="#ede9fe" font-family="system-ui,sans-serif" font-size="13" font-weight="700">Campus Services</text>
+  <rect x="500" y="410" width="75" height="50" rx="8" fill="#7c3aed" fill-opacity="0.2"/>
+  <rect x="590" y="410" width="75" height="50" rx="8" fill="#a855f7" fill-opacity="0.2"/>
+</svg>

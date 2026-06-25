@@ -1,0 +1,16 @@
+.cls-customfieldflex-route{
+    flex-direction: unset !important;
+    flex:0.35;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cls-customfieldflex-employee{
+    flex-direction: unset !important;
+    flex:0.84;
+    margin-right: 10px;
+}
+
+::ng-deep .cls-routebox-gridlay .mat-grid-tile-content{
+height:fit-content;
+}
